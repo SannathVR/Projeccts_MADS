@@ -1,0 +1,4 @@
+[1] http://www.cse.psu.edu/~rtc12/CSE586/lectures/pcaLectureShort_6pp.pdf
+
+[2] 
+http://www.sthda.com/english/articles/40-regression-analysis/167-simple-linear-regression-in-r/

@@ -1,0 +1,60 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.Prism 
+Relation:     weather.nominal
+Instances:    14
+Attributes:   5
+              outlook
+              temperature
+              humidity
+              windy
+              play
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Prism rules
+----------
+If outlook = sunny
+   and humidity = high then no
+If outlook = rainy
+   and windy = TRUE then no
+If outlook = overcast then yes
+If humidity = normal
+   and windy = FALSE then yes
+If temperature = mild
+   and humidity = normal then yes
+If outlook = rainy
+   and windy = FALSE then yes
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          14              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances               14     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     no
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     yes
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 5 0 | a = no
+ 0 9 | b = yes
+

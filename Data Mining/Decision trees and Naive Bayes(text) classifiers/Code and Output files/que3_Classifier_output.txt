@@ -1,0 +1,69 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     titanic2
+Instances:    2201
+Attributes:   4
+              pclass
+              age
+              sex
+              survived
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                Class
+Attribute         yes     no
+               (0.32) (0.68)
+=============================
+pclass
+  1st            204.0  123.0
+  2nd            119.0  168.0
+  3rd            179.0  529.0
+  crew           213.0  674.0
+  [total]        715.0 1494.0
+
+age
+  adult          655.0 1439.0
+  child           58.0   53.0
+  [total]        713.0 1492.0
+
+sex
+  male           368.0 1365.0
+  female         345.0  127.0
+  [total]        713.0 1492.0
+
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1713               77.8283 %
+Incorrectly Classified Instances       488               22.1717 %
+Kappa statistic                          0.4449
+Mean absolute error                      0.3205
+Root mean squared error                  0.4101
+Relative absolute error                 73.2701 %
+Root relative squared error             87.7062 %
+Total Number of Instances             2201     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.491    0.085    0.735      0.491    0.589      0.462    0.716     0.644     yes
+                 0.915    0.509    0.790      0.915    0.848      0.462    0.716     0.786     no
+Weighted Avg.    0.778    0.372    0.772      0.778    0.764      0.462    0.716     0.740     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  349  362 |    a = yes
+  126 1364 |    b = no
+

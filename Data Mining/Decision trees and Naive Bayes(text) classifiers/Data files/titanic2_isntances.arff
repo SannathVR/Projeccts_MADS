@@ -1,0 +1,10 @@
+@relation titanic2_new_instances
+
+@attribute pclass {1st,2nd,3rd,crew}
+@attribute age {adult,child}
+@attribute sex {male,female}
+@attribute survived {yes,no}
+
+@data
+2nd,child,male,?
+2nd,adult,female,?

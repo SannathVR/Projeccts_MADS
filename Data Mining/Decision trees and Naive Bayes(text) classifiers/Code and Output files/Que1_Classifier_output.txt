@@ -1,0 +1,70 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.Id3 
+Relation:     titanic2
+Instances:    2201
+Attributes:   4
+              pclass
+              age
+              sex
+              survived
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Id3
+
+
+sex = male
+|  pclass = 1st
+|  |  age = adult: no
+|  |  age = child: yes
+|  pclass = 2nd
+|  |  age = adult: no
+|  |  age = child: yes
+|  pclass = 3rd
+|  |  age = adult: no
+|  |  age = child: no
+|  pclass = crew: no
+sex = female
+|  pclass = 1st
+|  |  age = adult: yes
+|  |  age = child: yes
+|  pclass = 2nd
+|  |  age = adult: yes
+|  |  age = child: yes
+|  pclass = 3rd
+|  |  age = adult: no
+|  |  age = child: no
+|  pclass = crew: yes
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0.03 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1740               79.055  %
+Incorrectly Classified Instances       461               20.945  %
+Kappa statistic                          0.4334
+Mean absolute error                      0.3082
+Root mean squared error                  0.3925
+Relative absolute error                 70.4546 %
+Root relative squared error             83.9427 %
+Total Number of Instances             2201     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.380    0.013    0.931      0.380    0.539      0.506    0.768     0.673     yes
+                 0.987    0.620    0.769      0.987    0.864      0.506    0.768     0.829     no
+Weighted Avg.    0.791    0.424    0.821      0.791    0.759      0.506    0.768     0.779     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  270  441 |    a = yes
+   20 1470 |    b = no
+

@@ -1,0 +1,4 @@
+----Verifying with Traindata.txt for accuracy------
+count of accurate labels for traindata.txt : 311
+count of inaccurate labels for traindata.txt : 11
+Accuracy % : 96.58385093167702

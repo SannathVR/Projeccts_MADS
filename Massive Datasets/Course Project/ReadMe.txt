@@ -21,7 +21,7 @@ CSC_502_project_DB_+_Interface.ipynb :
 
 ---------------------------------------------------------------------------------------------------------
 
-Code_execution and results.mp4 - contains clipping which includes the code execution and results obtained.
+Code_execution and results.mp4 - contains clipping of the code execution and results obtained.
 
 ---------------------------------------------------------------------------------------------------------
 

@@ -9,7 +9,7 @@ inverted-index-pyspark-post.ipynb :
 
 -> These text files hold the values required for computing cosine similarity of each file.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 
 CSC_502_project_DB_+_Interface.ipynb : 
 
@@ -18,3 +18,11 @@ CSC_502_project_DB_+_Interface.ipynb :
 -> Interface : Contains HTML components like text box to enter search query, search button and text area to display the results.
 
 -> Onclick Functionality : a funciton which computes the cosine similarity onclick of search button that takes the enter search query as input and returns the most relevant document(among the input HTML files) to the search query.
+
+---------------------------------------------------------------------------------------------------------
+
+Code_execution and results.mp4 - contains clipping which includes the code execution and results obtained.
+
+---------------------------------------------------------------------------------------------------------
+
+

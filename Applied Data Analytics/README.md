@@ -10,3 +10,9 @@
 ![](Screenshots/A%2CB%2CC%20classes%20with%20changes%20in%20mean%20and%20Covariance.png)
 ![](Screenshots/A%2CB%2CC%20classes%20with%20significant%20changes%20to%20mean%20and%20Covariance.png)
 ![](Screenshots/classification%20with%20different%20apriori.png)
+
+![](Screenshots/ABC%20classified%20within%203D%20box%20(2).png)
+![](Screenshots/classification%20with%20diff%20apriori%20prob.png)
+![](Screenshots/Classes%20with%20diff%20mean%2C%20cov%20classified%20within%203D%20box.png)
+![](Screenshots/ABC%20with%20significant%20changes%20in%20mean%2Ccov.png)
+![](Screenshots/classification%20based%20on%20loss%20function.png)

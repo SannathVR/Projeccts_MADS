@@ -1,1 +1,1 @@
-![](Screenshots/Gaussian distribution+ellipsoid contours+principle_axes.png)
+![](Screenshots/Gaussian%20distribution%2Bellipsoid%20contours%2Bprinciple_axes.png)
